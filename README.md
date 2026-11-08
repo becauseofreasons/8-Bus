@@ -17,6 +17,7 @@ Pink noise + 100 Hz, 4 strips in series. Analyzer: input/output, EQ curve of str
 | Format | VST3, `Fx\|EQ`, Stereo (Dual-Mono) |
 | Plattformen / Platforms | Windows x64 + x86, Linux x86_64 |
 | Latenz / Latency | 36 Samples (konstant / constant) |
+| Lizenz / License | [MIT](LICENSE) |
 | Download | [Releases](https://github.com/becauseofreasons/8-Bus/releases/latest) |
 
 ---
@@ -89,7 +90,8 @@ Schaltungsanalyse und Modellannahmen: [vst3/Analyse.md](vst3/Analyse.md).
 
 ### Rechtliches
 
-© 2026 BecauseOfReasons. Alle Rechte vorbehalten. Unabhängiges Projekt ohne Verbindung zu einem Pulthersteller.
+MIT-Lizenz, © 2026 BecauseOfReasons – siehe [LICENSE](LICENSE). Enthaltene Fremdsoftware (VST3 SDK, VSTGUI, winpthreads):
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Unabhängiges Projekt ohne Verbindung zu einem Pulthersteller.
 VST ist eine Marke der Steinberg Media Technologies GmbH.
 
 ---
@@ -164,5 +166,6 @@ Circuit analysis and model assumptions: [vst3/Analyse.md](vst3/Analyse.md) (Germ
 
 ### Legal
 
-© 2026 BecauseOfReasons. All rights reserved. Independent project, not affiliated with any console manufacturer.
+MIT license, © 2026 BecauseOfReasons – see [LICENSE](LICENSE). Bundled third-party software (VST3 SDK, VSTGUI, winpthreads):
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Independent project, not affiliated with any console manufacturer.
 VST is a trademark of Steinberg Media Technologies GmbH.
