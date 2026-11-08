@@ -1,0 +1,9 @@
+# lokale Unterlagen und Aufnahmen (nicht im Repository)
+res/
+# erzeugte Dateien (die fertigen Plugins gibt es als Release)
+vst3/dist/
+vst3/doc/klang/
+*.xwd
+__pycache__/
+*.xcf
+*.bmp
