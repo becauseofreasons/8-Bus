@@ -10,6 +10,14 @@ VST3 channel-strip emulation of a 90s analog 8-bus console at circuit level. Up 
 <sub>Rosa Rauschen + 100 Hz, 4 Kanäle seriell. Analyzer: Eingang/Ausgang, EQ-Kurve Kanal 2 und Gesamtkette. ·
 Pink noise + 100 Hz, 4 strips in series. Analyzer: input/output, EQ curve of strip 2 and of the full chain.</sub>
 
+<p align="center">
+  <a href="https://github.com/becauseofreasons/8-Bus/releases/latest"><img src="https://img.shields.io/badge/Download-8--Bus%201.0.0-2ea44f?style=for-the-badge&logo=github" alt="Download 8-Bus 1.0.0" height="56"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/becauseofreasons/8-Bus/releases/download/v1.0.0/8-Bus-1.0.0-Windows.zip">Windows (x64 + x86)</a> ·
+  <a href="https://github.com/becauseofreasons/8-Bus/releases/download/v1.0.0/8-Bus-1.0.0-Linux.zip">Linux (x86_64)</a>
+</p>
+
 | | |
 |---|---|
 | Version | 1.0.0 |
@@ -88,11 +96,9 @@ Steinberg VST3 SDK 3.8 + VSTGUI, kein JUCE. CMake/Ninja; Windows per MinGW-w64-C
 Build, Tests (Kurvenreferenz, Engine, Host-Test, Steinberg-Validator 537/537): [vst3/README.md](vst3/README.md).
 Schaltungsanalyse und Modellannahmen: [vst3/Analyse.md](vst3/Analyse.md).
 
-### Rechtliches
+### Lizenz
 
-MIT-Lizenz, © 2026 BecauseOfReasons – siehe [LICENSE](LICENSE). Enthaltene Fremdsoftware (VST3 SDK, VSTGUI, winpthreads):
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Unabhängiges Projekt ohne Verbindung zu einem Pulthersteller.
-VST ist eine Marke der Steinberg Media Technologies GmbH.
+[MIT](LICENSE), Fremdsoftware: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Kein Bezug zu einem Pulthersteller.
 
 ---
 
@@ -164,8 +170,6 @@ Steinberg VST3 SDK 3.8 + VSTGUI, no JUCE. CMake/Ninja; Windows via MinGW-w64 cro
 Build and tests (curve reference, engine, host test, Steinberg validator 537/537): [vst3/README.md](vst3/README.md) (German).
 Circuit analysis and model assumptions: [vst3/Analyse.md](vst3/Analyse.md) (German).
 
-### Legal
+### License
 
-MIT license, © 2026 BecauseOfReasons – see [LICENSE](LICENSE). Bundled third-party software (VST3 SDK, VSTGUI, winpthreads):
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Independent project, not affiliated with any console manufacturer.
-VST is a trademark of Steinberg Media Technologies GmbH.
+[MIT](LICENSE), third-party software: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Not affiliated with any console manufacturer.
